@@ -1,0 +1,117 @@
+.main-content {
+  background-color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav span {
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #888;
+}
+
+header nav span:hover {
+  color: black;
+}
+
+.playlist {
+  display: flex;
+  flex-direction: column;
+}
+
+.playlist-card {
+  background-image: url("../assets/wall.jpg");
+  background-size: cover;
+  background-position: down;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.playlist-card h3 {
+  font-size: 22px;
+  color: white;
+}
+
+.playlist-card p {
+  font-size: 16px;
+  color: white;
+}
+
+.popular-artists {
+  font-size: large;
+}
+
+.popular-artists div {
+  margin-right: 15px;
+  text-align: center;
+}
+
+.artists-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-around;
+}
+
+.artists-list img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.artist-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: black;
+}
+
+.recently-played {
+  margin-top: 20px;
+}
+
+.recently-played h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recently-played ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recently-played ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  font-size: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+
+
